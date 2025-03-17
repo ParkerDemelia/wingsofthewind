@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wings of the Wind</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="menu">
+    <h1>Wings of the Wind</h1>
+    <div id="map-select">
+      <button data-map="rio">Rio de Janeiro</button>
+      <button data-map="alps">The Alps</button>
+    </div>
+    <div id="graphics">
+      <label>Graphics:</label>
+      <select id="graphics-select">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+    <button id="start">Launch!</button>
+  </div>
+  <div id="game-container"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
