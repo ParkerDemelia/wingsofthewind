@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build files
+dist/
+build/
+*.min.js  # Minified JavaScript files
+*.bundle.js  # Bundled files (if you add a bundler like Webpack later)
+
+# Local environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs and temporary files
+*.log
+*.log.*
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Render.com or deployment-specific
+*.pid
+*.seed
